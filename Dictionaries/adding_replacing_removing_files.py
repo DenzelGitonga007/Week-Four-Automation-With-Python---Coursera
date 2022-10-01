@@ -9,3 +9,7 @@ print(file_list)
 file_list["jpg"] = 14
 print("Changing the value of jpg from 12 to 14")
 print(file_list)
+# Deleting an entry
+del file_list["txt"]
+print("Deleting the 'txt' key")
+print(file_list)
