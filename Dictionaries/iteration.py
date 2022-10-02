@@ -6,3 +6,15 @@ for courses in pass_list:
 # To iterate over both the keys and their values, use the item function
 for extension, amount in pass_list.items():
     print("There are {} values with the .{} extension".format(amount, extension))
+
+# To access just the values
+value = pass_list.values()
+print(value)
+# or
+for value in pass_list.values():
+    print(value)
+#  To access just keys
+value_keys = pass_list.keys()
+print(value_keys)
+
+
